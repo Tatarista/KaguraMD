@@ -1299,23 +1299,6 @@ kagura.send5ButImg(i, txt, ownername, global.thumb, btn)
 reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
 break
-case 'bcallmedia': {
-            if (!isCreator) throw mess.owner
-            let anu = await store.chats.all().map(v => v.id)
-            m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
-            for (let i of anu) {
-
-            await sleep(1500)
-
-            kagura.copyNForward(i, quoted.fakeObj, false, {quoted:ftroli})
-
-            }
-            
-            m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Chat`)
-
-            }
-            
-break
 case 'bc': case 'broadcast': case 'bcall': {
 if (!isCreator) return reply(mess.owner)
 if (!q) return reply(`Text mana?\n\nExample : ${prefix + command} fatih-san`)
