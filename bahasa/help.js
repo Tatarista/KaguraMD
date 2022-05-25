@@ -40,6 +40,7 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
  › #leave
  › #block @user
  › #unblock @user
+ › #bcallmedia
  › #bcgroup 
  › #bcall 
  › #setppbot  
