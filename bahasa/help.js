@@ -41,7 +41,8 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
  › #block @user
  › #unblock @user
  › #bcgroup 
- › #bcall 
+ › #bcall
+ › #bcallmedia
  › #setppbot  
  › #setexif
  › #setmenu
